@@ -44,7 +44,7 @@ HR_project/
 │   └── leave_page_variables.robot
 │   └── claim_variables.robot
 │
-│── utility/                  # Helper scripts and utilities
+│── utility/                  # To read CSV data
 │   ├── read_csv_data.py
 │
 │── screenshots/              # Screenshots captured in test run
