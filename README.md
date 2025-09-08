@@ -1,3 +1,4 @@
+<pre><code>
 HR_project/
 │── data/                     # Test data and generated reports
 │   ├── test_data.csv          # Login credentials and test input
@@ -55,3 +56,4 @@ HR_project/
 │
 │── requirements.txt          # Dependencies
 │── README.md                 # Project documentation
+</code></pre>
