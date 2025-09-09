@@ -2,6 +2,7 @@
 Library    SeleniumLibrary
 Resource    ../variables/leave_variables.robot
 Resource    ../variables/admin_page_variables.robot
+Documentation    This Page Contains Keywords that Apply for Leave and Validate it presence in Leave Records
 
 *** Keywords ***
 Click On Leave in the Menu
@@ -154,5 +155,6 @@ Find the Record
         END
     END
     Capture page screenshot    screenshots/Leave_Record_Found.png
+
 
 
