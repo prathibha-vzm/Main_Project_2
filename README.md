@@ -74,20 +74,20 @@ HR_project/
 10. Claim Request Initiation by an employee.
     
 # Feature
-. Robot Framework Testing with SeleniumLibrary - Automates web interactions such as clicking, typing, and form submissions.
-. Data-Driven-Testing - Uses external CSV/ODS files to test multiple input scenarios (positive & negative).
-. Object-Oriented Keyword Design – Reusable keywords are structured with object-oriented principles for modularity.
-. Explicit Waits for UI Synchronization – Ensures stability by waiting for elements to be visible/clickable before actions.
-. Structured Folder Organization – Separate folders for tests, pages, keywords, variables, utilities, and reports.
-. Exception Handling – Improves test resilience and minimizes flaky test results.
+* Robot Framework Testing with SeleniumLibrary - Automates web interactions such as clicking, typing, and form submissions.
+* Data-Driven-Testing - Uses external CSV/ODS files to test multiple input scenarios (positive & negative).
+* Object-Oriented Keyword Design – Reusable keywords are structured with object-oriented principles for modularity.
+* Explicit Waits for UI Synchronization – Ensures stability by waiting for elements to be visible/clickable before actions.
+* Structured Folder Organization – Separate folders for tests, pages, keywords, variables, utilities, and reports.
+* Exception Handling – Improves test resilience and minimizes flaky test results.
 
 # Why Robot Framework
-. Readable, tabular syntax — test cases are simple to write and easy to maintain.
-. Reusable keywords — promotes modular design and reduces duplication.
-. SeleniumLibrary support — enables powerful web UI automation.
-. Inbuilt waits & exception handling — improves test stability by automatically managing synchronization and handling errors gracefully.
-. Auto-generated reports — report.html, log.html, and output.xml generated after each run.
-. Step-by-step execution log — detailed logs at keyword level help identify exactly where a test failed and how to fix it.
+* Readable, tabular syntax — test cases are simple to write and easy to maintain.
+* Reusable keywords — promotes modular design and reduces duplication.
+* SeleniumLibrary support — enables powerful web UI automation.
+* Inbuilt waits & exception handling — improves test stability by automatically managing synchronization and handling errors gracefully.
+* Auto-generated reports — report.html, log.html, and output.xml generated after each run.
+* Step-by-step execution log — detailed logs at keyword level help identify exactly where a test failed and how to fix it.
 
 # Usage
 ## To Install Dependencies
