@@ -2,6 +2,7 @@
 Library    SeleniumLibrary
 Resource    ../variables/dashboard_page_variables.robot
 Resource    ../variables/admin_page_variables.robot
+Documentation    This Page has multiple keywords that helps to add new user and validate it by logging in Using the credentials
 
 *** Keywords ***
 Click On Admin Menu And Print Menu page Title
@@ -176,3 +177,4 @@ Enter New Credentials
     ELSE
         Log    Password Not Found
     END
+
