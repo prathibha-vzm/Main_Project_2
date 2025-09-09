@@ -80,6 +80,7 @@ HR_project/
 * Explicit Waits for UI Synchronization – Ensures stability by waiting for elements to be visible/clickable before actions.
 * Structured Folder Organization – Separate folders for tests, pages, keywords, variables, utilities, and reports.
 * Exception Handling – Improves test resilience and minimizes flaky test results.
+* Cross-Browser - Supports execution on Chrome and Edge to validate application compatibility.
 
 # Why Robot Framework
 * Readable, tabular syntax — test cases are simple to write and easy to maintain.
@@ -96,7 +97,7 @@ HR_project/
 <pre><code>python -m venv HR_project</code>
 <code>./HR_project/Scripts/activate</code></pre>
 ## To Run the Test in Cross Browser
-###chrome
+### chrome
 <pre><code> robot tests/ </code></pre>
-###edge
+### edge
 <pre><code> robot --variable BROWSER:edge tests/ </code></pre>
