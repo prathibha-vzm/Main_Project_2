@@ -2,6 +2,7 @@
 Library    SeleniumLibrary
 Resource    ../variables/dashboard_page_variables.robot
 Resource    ../utility/read_csv_data.py
+Documentation    This Keywords validates the valid credentials login and Check All the Menu Items visibiity and Clickability
 
 *** Keywords ***
 Read Credentials
@@ -23,6 +24,7 @@ Validate Menu Item
         ${MENU_PAGE_TITLE_TEXT}=    Get text    ${MENU_PAGE_TITLE}
         Log     ${LOCATOR_TEXT} Page Title is: ${MENU_PAGE_TITLE_TEXT}
     END
+
 
 
 
