@@ -1,6 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary
 Resource    ../variables/my_info_variables.robot
+Documentation    This Page Keywords validates the elements in My_info Page is Visible and Clickable
 
 *** Keywords ***
 Click On My Info
@@ -26,4 +27,5 @@ Validate Visibility and Clickability of Menu Items
        ${TITLE_TEXT}=    Get text    ${TITLE}
        Log    The Page Title is: ${TITLE_TEXT}
     END
+
 
