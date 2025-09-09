@@ -2,6 +2,7 @@
 Library    SeleniumLibrary
 Resource    ../variables/claim_variables.robot
 Resource    ../variables/leave_variables.robot
+Documentation    This Page has Multiple Keywords that create a claim and validate it by checking the record
 
 *** Keywords ***
 Click Claim On Menu
@@ -129,6 +130,7 @@ Find the Claim Request
        END
     END
     Capture page screenshot    screenshots/Claim_Record_Found.png
+
 
 
 
