@@ -2,6 +2,7 @@
 Library    SeleniumLibrary
 Resource    ../variables/forgot_password_variables.robot
 Resource    ../variables/admin_page_variables.robot
+Documentation    This Page Keywords Validates Forgot Password Functionality
 
 *** Keywords ***
 Click On Forgot Password Link
@@ -48,3 +49,4 @@ Print the Success Message for Forgot Password
         Log    Message Not FOund
     END
     Capture page screenshot    screenshots/Forgot_Password_Message.png
+
